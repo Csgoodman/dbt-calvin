@@ -1,4 +1,4 @@
 
 SELECT * 
 FROM {{ ref('stg_weather') }}
-WHERE name is NOT NULL
+WHERE "LOCATION" is NOT NULL

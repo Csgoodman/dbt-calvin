@@ -5,9 +5,9 @@
 SELECT
     DT,
     _FIVETRAN_SYNCED as date_time,
-    CITY_NAME as "location",
+    CITY_NAME as "LOCATION",
     TEMPERATURE,
-    TEMPERAUTRE_MIN,
+    TEMPERATURE_MIN,
     TEMPERATURE_MAX,
     TEMP_FEELS_LIKE,
     HUMIDITY,
