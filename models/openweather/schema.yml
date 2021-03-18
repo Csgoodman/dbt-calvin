@@ -1,0 +1,10 @@
+version: 2
+
+models:
+    - name: openweather_daily
+      description: "Let's look at some weather.. daily"
+      columns:
+          - name: CITY_NAME
+            description: "The location of weather data"
+            tests:
+                - not_null
